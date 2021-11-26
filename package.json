@@ -1,0 +1,22 @@
+{
+  "name": "getir-nodejs-bootcamp-week-2-assignment-dorukgercel",
+  "version": "1.0.0",
+  "description": "simple routing app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-DorukGercel.git"
+  },
+  "author": "Doruk Gercel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-DorukGercel/issues"
+  },
+  "homepage": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-DorukGercel#readme",
+  "dependencies": {
+
+  }
+}
