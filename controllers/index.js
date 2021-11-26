@@ -1,13 +1,16 @@
-const paths = require("../definitions/paths");
-const html_service = require("../services/html_service");
+const moment = require("moment");
 const aboutController = require("./about");
 const contactController = require("./contact");
 const errorController = require("./error");
 const mainController = require("./main");
+const paths = require("../definitions/paths");
+const fsService = require("../services/fs_service");
 
 const appController = (req, res) => {
+    const reqTime = moment().format("YYYY-MM-DD-HH:mm:ss")
     handleControllerError(req, res);
     routePath(req, res);
+    fsService.log(req, reqTime);
 }
 
 const handleControllerError = (req, res) => {
